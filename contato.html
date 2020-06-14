@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>
+                <img src="img/logo.png" alt="logo do sinte" >
+            </h1>
+            <nav class='navegacao'>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <fieldset class="principal">
+                <label>
+                    Nome e Sobrenome:
+                    <input id="nome-sobrenome" type="text" placeholder="digite aqui" required>
+                </label>
+                
+                <label for="e-mail">
+                    e-mail:
+                    <input id="e-mail" type="email" placeholder="digite aqui" required>
+                </label>
+                
+                <label for="Telefone">
+                    Telefone:
+                    <input id="Telefone" type="tel" placeholder="Telefone" required>
+                </label>
+            </fieldset>
+            
+
+            <label for="mensagem">
+                Mensagem
+                <textarea id="mensagem" required></textarea>
+            </label>
+
+            <fieldset class="contato">
+                <legend>Como prefere nosso contato?</legend>  
+                <label>
+                    <input type="radio" id="radio-email" name="contato">
+                    e-mail
+                </label>
+                <label>
+                    <input type="radio" id="radio-telefone" name="contato">
+                    Telefone
+                </label>
+                <label>
+                    <input type="radio" id="radio-whatsapp" name="contato">
+                    WhatsApp
+                </label>
+            </fieldset>
+
+            <fieldset>
+                <legend>Qual horario prefere ser atendido ?</legend>
+                <select>
+                    <option>-</option>
+                    <option>Manha<p id="apaga">x</p></option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </fieldset>
+
+            <label class="checkbox">
+                <input type="checkbox" checked>
+                Deseja receber nossas novidades por email ?
+            </label>
+
+            <input id="envia" type="submit" value="Envia essa bagaça">
+        </form>
+
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Dia</th>
+                    <th>Horario</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Segunda</td>
+                    <td>08:00 ~ 20:00</td>
+                </tr>
+                <tr>
+                    <td>Quarta</td>
+                    <td>08:00 ~ 20:00</td>
+                </tr>
+                <tr>
+                    <td>Sexta</td>
+                    <td>08:00 ~ 20:00</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    
+    
+
+
+    <footer>
+        <img src="img/logo-branco.png" alt="logo do sinte">
+        <p>
+            &copy; Bravearia Alura - 2020
+        </p>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

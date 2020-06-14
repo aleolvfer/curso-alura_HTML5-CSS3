@@ -1,0 +1,51 @@
+header{
+    background-color: #ccc;
+    padding: 10px;
+}
+
+header h1 img {
+    width: 15%;
+}
+.container {
+    position: relative;
+    /* width: 940px; */
+    width: 70%;
+    margin: 0 auto;
+}
+
+.navegacao {
+    position: absolute;
+    top: 90px;
+    right: 0;
+}
+
+.navegacao li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+.navegacao a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+    color: #000;
+}
+
+.navegacao a:hover {
+    color: #C78C19;
+}
+
+
+
+footer {
+    text-align: center;
+    background: url("../img/bg.jpg");
+}
+
+footer p {
+    color: white;
+    padding: 2em 0;
+    font-size: .8em;
+    margin-top: 2em 0 0;
+}
