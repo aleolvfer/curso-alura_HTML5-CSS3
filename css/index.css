@@ -69,8 +69,8 @@ body {
     font-style: italic;
 }
 
-.video {
-    width: 700px;
+.video{
+    text-align: center;
     margin: 2em auto;
 }
 
@@ -88,4 +88,54 @@ body {
     width: 80%;
     margin: 0 10%;
     box-shadow: 1px 2px 9px black; 
+}
+
+@media screen and (max-width: 705px) { 
+    .container, .conteudo-principal, .conteudo-beneficios, .lista-beneficios, .mapa, .video {
+        width: auto !important;
+    }
+
+    .container h1 img {
+        width: 40%;
+    }
+
+    .utensilios {
+        width: 20% !important;
+        margin: 2px 10px 5px 5px !important;
+    }
+
+    .conteudo-principal {
+        margin: 10px 10px !important;
+    }
+
+    .lista-beneficios {
+        margin-bottom: 10px;
+    }
+
+    .img-beneficios {
+        width: 100% !important;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    .navegacao {
+        position:static;
+        font-size: .1em;
+        text-align: center;
+    }
+
+
+    .lista-beneficios, .img-beneficios, .video iframe {
+        width: 100%
+    }
+}
+
+@media screen and (max-width: 373px) { 
+
+    .navegacao li {
+        display: block;
+        text-align: center;
+    }
 }
