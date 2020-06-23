@@ -1,125 +1,94 @@
 header {
-    background: #C78C19;
-}
+  background: #C78C19; }
 
-.navegacao a:hover{
-    color: white;
-}
+.navegacao a:hover {
+  color: white; }
 
 main {
-    padding: 2em;
-    background: linear-gradient(360deg, white, #dfdfdf, #cfcfcf, #cdcdcd);
-    box-shadow: inset 0px 11px 17px -15px black;
-}
+  padding: 2em;
+  background: linear-gradient(360deg, white, #dfdfdf, #cfcfcf, #cdcdcd);
+  box-shadow: inset 0px 11px 17px -15px black; }
 
 .produtos {
-    width: 80%;
-    margin: 0 auto;
-    text-align: center;
-    padding: 50px 0;
-}
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 50px 0; }
 
 .produtos li {
-    display: inline-block;
-    text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.5%;
-    padding: 2em 1em;
-    box-sizing: border-box;
-    border: 2px solid;
-    border-radius: 10px;
-    background: white;
-}
+  display: inline-block;
+  text-align: center;
+  width: 30%;
+  vertical-align: top;
+  margin: 0 1.5%;
+  padding: 2em 1em;
+  box-sizing: border-box;
+  border: 2px solid;
+  border-radius: 10px;
+  background: white; }
 
 .produtos li:hover {
-    border-color: #C78C19;
-}
+  border-color: #C78C19; }
+
 .produtos li:hover h2 {
-    font-size: 2.5em;
-}
+  font-size: 2.5em; }
 
 .produtos h2 {
-    font-size: 2em;
-    font-weight: bold;
-}
+  font-size: 2em;
+  font-weight: bold; }
 
 .descricao {
-    font-size: 1.1em;
-}
+  font-size: 1.1em; }
 
 .preco {
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 10px; }
 
 /* all Smatphones */
 @media screen and (max-width: 760px) {
+  main {
+    padding: 0; }
 
-    main {
-        padding: 0;
-    }
+  .container, .navegacao {
+    width: auto; }
 
-    .container, .navegacao {
-        width: auto;
-    }
+  .container h1 {
+    text-align: center; }
 
-    .container h1 {
-        text-align: center;
-    }
+  .container img {
+    width: 40%; }
 
-    .container img {
-        width: 40%;
-    }
+  .navegacao {
+    position: static;
+    text-align: center; }
 
-    .navegacao {
-        position: static;
-        text-align: center;
-    }
-
-    .produtos li {
-        display: block;
-        width: auto;
-        max-width: 420px;
-        margin-top: 20px;
-    }
-}
-
-
+  .produtos li {
+    display: block;
+    width: auto;
+    max-width: 420px;
+    margin-top: 20px; } }
 /* Iphone SE */
-@media screen and (max-width: 373px) { 
+@media screen and (max-width: 373px) {
+  .navegacao li {
+    display: block;
+    text-align: center;
+    margin-top: 15px; }
 
-    .navegacao li {
-        display: block;
-        text-align: center;
-        margin-top: 15px;
-    }
-
-    .produtos li img {
-        max-width: 200px;
-    }
-}
-
-
+  .produtos li img {
+    max-width: 200px; } }
 /* Ipads */
+@media screen and (max-width: 1024px) {
+  main {
+    padding: 0; }
 
-@media screen and (max-width: 1024px) { 
+  .produtos {
+    width: 90%; }
 
-    main {
-        padding: 0;
-    }
+  .produtos li img {
+    width: 100%; }
 
-    .produtos {
-        width: 90%;
-    }
-    .produtos li img{
-        width: 100%;
-    }
+  .produtos li {
+    height: auto !important; } }
 
-    .produtos li {
-        height:auto !important;
-    }
-    
-}
+/*# sourceMappingURL=produtos.css.map */
