@@ -5,6 +5,7 @@
 
 - Posicionamento
 - Disign responsivo
+- Sass
 - Reset.css
 - Pseudo-classes e pseudo-elementos
 - Formulários, campos para celulares
