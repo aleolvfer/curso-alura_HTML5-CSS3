@@ -4,7 +4,6 @@
 ## Alguns temas abordados no curso:
 
 - Posicionamento
-- Disign responsivo
 - Reset.css
 - Pseudo-classes e pseudo-elementos
 - Formulários, campos para celulares
