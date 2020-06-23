@@ -1,10 +1,26 @@
+header {
+    background: #C78C19;
+}
+
+.navegacao a:hover{
+    color: white;
+}
+
 main {
-    width: 80%;
     margin: 0 auto;
+    background: linear-gradient(360deg, white, #dfdfdf, #cfcfcf, #cdcdcd);
+    box-shadow: inset 0px 11px 17px -15px black;
 }
 
 form {
-    margin: 40px 0;
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+form legend {
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 form label {
@@ -27,7 +43,7 @@ form label {
 }
 
 #envia {
-    width: 50%;
+    width: 20%;
     padding: 10px;
     font-size: 1.2em;
     background-color:rgb(238, 200, 95);
@@ -37,13 +53,14 @@ form label {
 }
 
 #envia:hover {
-    background-color: rgb(223, 156, 11);
+    background-color: #C78C19;
     transition: 1s;
-    transform: scale(1.1) rotate(360deg);
+    transform: scale(1.1);
+    color: white;
 }
 
 table {
-    width: 30%;
+    width: 40%;
     text-align: center;
     margin: 20px 0;
 }
@@ -51,7 +68,7 @@ table {
 table thead {
     font-weight: bold;
     color: white;
-    background-color:rgb(190, 150, 95);
+    background-color: #C78C19;
 }
 
 th, td {
@@ -59,4 +76,40 @@ th, td {
     padding: 5px;
 }
 
+.tb-horario {
+    margin: 20px 0;
+}
+
+@media screen and (max-width: 700px) {
+    
+    .container {
+        width: auto;
+    }
+
+    .container h1 img {
+        width: 25%;
+        margin-left: 20px;
+    }
+
+    .navegacao {
+        top: 0px;
+        right: 20px;
+    }
+    .navegacao li{
+        display: block;
+        margin-top: 15px;
+    }
+
+    form {
+        font-size: 1.2em;
+    }
+
+    form label{
+        color: #333;
+    }
+
+    .principal input, .principal textarea, .tb-horario table, #envia {
+        width: 100%;
+    }
+}
 

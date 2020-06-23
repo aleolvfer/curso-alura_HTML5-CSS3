@@ -30,6 +30,7 @@
     <main>
         <form>
             <fieldset class="principal">
+                <legend>Entre em contato para fazer um agendamento</legend>
                 <label>
                     Nome e Sobrenome:
                     <input id="nome-sobrenome" type="text" placeholder="digite aqui" required>
@@ -44,13 +45,11 @@
                     Telefone:
                     <input id="Telefone" type="tel" placeholder="Telefone" required>
                 </label>
+                <label for="mensagem">
+                    Mensagem
+                    <textarea id="mensagem" required></textarea>
+                </label>
             </fieldset>
-            
-
-            <label for="mensagem">
-                Mensagem
-                <textarea id="mensagem" required></textarea>
-            </label>
 
             <fieldset class="contato">
                 <legend>Como prefere nosso contato?</legend>  
@@ -72,7 +71,7 @@
                 <legend>Qual horario prefere ser atendido ?</legend>
                 <select>
                     <option>-</option>
-                    <option>Manha<p id="apaga">x</p></option>
+                    <option>Manha</option>
                     <option>Tarde</option>
                     <option>Noite</option>
                 </select>
@@ -83,36 +82,36 @@
                 Deseja receber nossas novidades por email ?
             </label>
 
-            <input id="envia" type="submit" value="Envia essa bagaça">
+            <input id="envia" type="submit" value="Enviar">
+
+            <fieldset class="tb-horario">
+                <legend>Nosso horário de funcionamento</legend>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horario</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+                            <td>08:00 ~ 20:00</td>
+                        </tr>
+                        <tr>
+                            <td>Quarta</td>
+                            <td>08:00 ~ 20:00</td>
+                        </tr>
+                        <tr>
+                            <td>Sexta</td>
+                            <td>08:00 ~ 20:00</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </fieldset>
+        </main>
         </form>
-
-        
-        <table>
-            <thead>
-                <tr>
-                    <th>Dia</th>
-                    <th>Horario</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Segunda</td>
-                    <td>08:00 ~ 20:00</td>
-                </tr>
-                <tr>
-                    <td>Quarta</td>
-                    <td>08:00 ~ 20:00</td>
-                </tr>
-                <tr>
-                    <td>Sexta</td>
-                    <td>08:00 ~ 20:00</td>
-                </tr>
-            </tbody>
-        </table>
-    </main>
     
-    
-
 
     <footer>
         <img src="img/logo-branco.png" alt="logo do sinte">

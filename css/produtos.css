@@ -1,6 +1,15 @@
+header {
+    background: #C78C19;
+}
+
+.navegacao a:hover{
+    color: white;
+}
+
 main {
     padding: 2em;
     background: linear-gradient(360deg, white, #dfdfdf, #cfcfcf, #cdcdcd);
+    box-shadow: inset 0px 11px 17px -15px black;
 }
 
 .produtos {
@@ -43,4 +52,74 @@ main {
     font-size: 1.5em;
     font-weight: bold;
     margin-top: 10px;
+}
+
+
+/* all Smatphones */
+@media screen and (max-width: 760px) {
+
+    main {
+        padding: 0;
+    }
+
+    .container, .navegacao {
+        width: auto;
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container img {
+        width: 40%;
+    }
+
+    .navegacao {
+        position: static;
+        text-align: center;
+    }
+
+    .produtos li {
+        display: block;
+        width: auto;
+        max-width: 420px;
+        margin-top: 20px;
+    }
+}
+
+
+/* Iphone SE */
+@media screen and (max-width: 373px) { 
+
+    .navegacao li {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .produtos li img {
+        max-width: 200px;
+    }
+}
+
+
+/* Ipads */
+
+@media screen and (max-width: 1024px) { 
+
+    main {
+        padding: 0;
+    }
+
+    .produtos {
+        width: 90%;
+    }
+    .produtos li img{
+        width: 100%;
+    }
+
+    .produtos li {
+        height:auto !important;
+    }
+    
 }
