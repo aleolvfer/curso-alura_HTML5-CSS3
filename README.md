@@ -13,4 +13,4 @@
 - Transformações e transições
 - Importe de conteúdo externo como fontes, vídeos e mapas
 
-![Screenshot](]barba.jpg)
+![Screenshot](barba.jpg)
